@@ -1,0 +1,91 @@
+/* ===== COLORS & BASE ===== */
+:root {
+    --orange: #e87722;
+    --dark-brown: #3b1f0e;
+    --cream: #fff8f0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: var(--dark-brown);
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+    background: linear-gradient(135deg, #3b1f0e, #e87722);
+    color: white;
+    min-height: 90vh;
+}
+
+.hero-logo {
+    width: 140px;
+    border-radius: 50%;
+}
+
+/* ===== BUTTONS ===== */
+.btn-order {
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-order:hover {
+    background-color: #c9621a;
+    color: white;
+}
+
+.btn-outline-orange {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    border-radius: 30px;
+}
+
+.btn-outline-orange:hover {
+    background-color: var(--orange);
+    color: white;
+}
+
+/* ===== SECTIONS ===== */
+.bg-cream {
+    background-color: var(--cream);
+}
+
+.section-title {
+    color: var(--dark-brown);
+}
+
+/* ===== COLORS ===== */
+.text-orange {
+    color: var(--orange) !important;
+}
+
+.text-dark-brown {
+    color: var(--dark-brown) !important;
+}
+
+/* ===== PRICE TAG ===== */
+.price-tag {
+    color: var(--orange);
+}
+
+/* ===== CARDS ===== */
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--dark-brown);
+}
