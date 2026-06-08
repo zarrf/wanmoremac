@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/wanmoremac/index.html" },
+    { "source": "/home", "destination": "/wanmoremac/home.html" },
+    { "source": "/menu", "destination": "/wanmoremac/index.html#menu" },
+    { "source": "/order", "destination": "/wanmoremac/order.html" }
+  ]
+}
